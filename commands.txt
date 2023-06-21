@@ -1,0 +1,28 @@
+sudo add-apt-repository ppa:nginx/stable
+sudo apt update
+
+sudo apt install -y nginx
+
+sudo apt remove -y nginx
+sudo dpkg -r nginx
+
+
+
+sudo apt install -y snapd
+
+snap list 
+
+snap search gimp
+
+sudo snap install gimp
+
+snp list 
+
+gimp
+
+
+
+nano ~/test.txt
+
+crontab -e 
+*/10 * * * * cp -b /home/natalia/test.txt /home/natalia/test.txt.bak
